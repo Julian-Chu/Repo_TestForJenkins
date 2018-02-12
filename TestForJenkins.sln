@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestForJenkins", "TestForJenkins\TestForJenkins.csproj", "{EE965C0A-F7E5-4962-A5B7-1C1D92BB3867}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestForJenkins.Tests", "TestForJenkins.Tests\TestForJenkins.Tests.csproj", "{77A3F224-30FC-4C7B-9D4F-CC979B925C89}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{2FC22491-F83E-4B75-970A-ACBBF1555F3B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE965C0A-F7E5-4962-A5B7-1C1D92BB3867}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE965C0A-F7E5-4962-A5B7-1C1D92BB3867}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE965C0A-F7E5-4962-A5B7-1C1D92BB3867}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE965C0A-F7E5-4962-A5B7-1C1D92BB3867}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77A3F224-30FC-4C7B-9D4F-CC979B925C89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77A3F224-30FC-4C7B-9D4F-CC979B925C89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77A3F224-30FC-4C7B-9D4F-CC979B925C89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77A3F224-30FC-4C7B-9D4F-CC979B925C89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FC22491-F83E-4B75-970A-ACBBF1555F3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FC22491-F83E-4B75-970A-ACBBF1555F3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FC22491-F83E-4B75-970A-ACBBF1555F3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FC22491-F83E-4B75-970A-ACBBF1555F3B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A270DCE3-987E-4055-BE9D-2FB37DC43E6C}
+	EndGlobalSection
+EndGlobal

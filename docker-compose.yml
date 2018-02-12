@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  testforjenkins:
+    image: testforjenkins
+    build:
+      context: .
+      dockerfile: TestForJenkins/Dockerfile
+
+  testforjenkins.tests:
+    image: testforjenkins.tests
+    build:
+      context: .
+      dockerfile: TestForJenkins.Tests/Dockerfile
+
